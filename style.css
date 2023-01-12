@@ -52,7 +52,10 @@ section {
 }
 
 section.first {
-    color: #FFF;
+    color: #fff;
+    background-image: url('images1.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 section.first p {
@@ -60,10 +63,19 @@ section.first p {
 }
 
 article {
-    flex: 1;
-    background-color: rgb(182, 207, 89);
+    flex: 1;    
     border-radius: .5rem;
     padding: 0 1rem;
+}
+
+section.second article {
+    background-color: rgb(206, 182, 136);
+}
+
+section.second img {
+    object-fit: cover;
+    width: 100%;
+    height: 12rem;
 }
 
 article ul {
